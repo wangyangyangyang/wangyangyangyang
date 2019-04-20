@@ -261,7 +261,8 @@ header .main .introduce{
         height:400px;
     }
     header .main{
-        height:300px;
+        padding:100px 0;
+        width:100%;
     }
 }
 .ad{
