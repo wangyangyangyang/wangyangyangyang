@@ -519,7 +519,7 @@ header .main .introduce{
     width:55%;
     text-align: left;
     float: right;
-    margin-top: 40px;
+    padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
   }
