@@ -129,7 +129,7 @@ header .top{
     width:100%;
     height:500px;
     color: #fff;
-    background:url('../img/gaitubao_brand_yasuo_png.png') center center no-repeat;
+    background:url('../img/brand.png') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,7 +176,8 @@ header .top .top_word .top_sub_word{
 header .main{
     position: relative;
     width:100%;
-    height:470px;
+    /* height:470px; */
+    padding:100px 0;
     background: url('../img/bg_one.png') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -186,9 +187,9 @@ header .main{
 header .main .introduce{
     width:80%;
     margin:0 auto;
-    position: absolute;
+    /* position: absolute;
     left:15%;
-    top:25%;
+    top:25%; */
     font-size: 2.4rem;
     font-family:HelveticaNeue-Bold;
     font-weight:bold;
@@ -197,11 +198,11 @@ header .main .introduce{
 }
 @media only  screen and (max-width:800px){
   header .main .introduce{
-    position: absolute;
+    /* position: absolute; */
       width:80%;
       margin:0 auto;
-      top:20%;
-      left:10%;      
+      /* top:20%;
+      left:10%;       */
       font-size: 1.8rem;
       line-height: 1.8;
   }
@@ -221,11 +222,11 @@ header .main .introduce{
 }
 @media only screen and (min-width:481px) and (max-width:800px){
  header .main .introduce{
-    position: absolute;
+    /* position: absolute; */
       width:80%;
       margin:0 auto;
-      top:20%;
-      left:10%;      
+      /* top:20%;
+      left:10%;       */
   }
      header .top .top_word .top_main_word{
         font-size: 3.4rem;
@@ -242,9 +243,9 @@ header .main .introduce{
 }
 @media only screen and (max-width:480px){
  header .main .introduce{
-       position: absolute;
+       /* position: absolute;
       top:20%;
-      left:10%;
+      left:10%; */
        width:80%;
       margin:0 auto;
   }
@@ -517,8 +518,9 @@ header .main .introduce{
     width:55%;
     text-align: left;
     float: right;
-    padding:60px 40px;
-    margin-top:-10px;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 .new .item_right_box ul .new_content_title{
     color:#2C6FED;
